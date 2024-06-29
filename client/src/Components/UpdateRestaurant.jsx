@@ -54,7 +54,7 @@ const UpdateRestaurant = (props) => {
         </div>
 
         <div className="form-group mb-4">
-          <label htmlFor="price_range">Price Range</label>
+          <label htmlFor="price_range">Price Ranges</label>
           <input value = {priceRange} onChange = {(e) => {
             setPriceRange(e.target.value)
           }} id = "price_range" type="number" className="form-control" />
